@@ -1,3 +1,6 @@
+%B41052050
+%李祥聖
+
 %ploty=sin(x)&cos(x);label&axis&grid
 %100data point;
 clear;
