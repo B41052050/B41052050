@@ -1,3 +1,6 @@
+%B41052050
+%李祥聖
+
 function y=exp_fnct(x,funfcn,k,T,p1,p2,p3)
 j=sqrt(-1);
 args=[];
