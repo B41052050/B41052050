@@ -1,3 +1,6 @@
+%B41052050
+%李祥聖
+
 function xx=fseries(funfcn,a,b,n,tol,p1,p2,p3)
 j=sqrt(-1);
 args0=[];
