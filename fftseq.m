@@ -1,3 +1,6 @@
+%B41052050
+%李祥聖
+
 function [M,m,df]=fftseq(m,ts,df)
 
 fs=1/ts;
