@@ -1,14 +1,16 @@
-%B41052050
-%李祥聖
-
-x=linspace(0,4*pi,100);
-y=sin(x);
-z=cos(x);
-plot(x,y,x,z);
-xlabel('x=axis');
-ylabel('y=axis');
-title('y=sin(x) & cos(x)');
-axis([0,4*pi -2 2]);
-grid on;
-text(2.2,0.9,'sin(x)');
-text(6.2,1.2,'cos(x)');
+echo on
+n=[-20:1:20];
+x=.5*(sinc(n/2)).^2;
+ts=1/40;
+t=[-.5:ta:1.5];
+fs=1/ts;
+h=[zeros(1,20),t(21:61),zeros(1,20)];
+H=fft(h)/fs;
+df=fs/80;
+f=[0:df:fs]-fs/2;
+H1=fftshift(H);
+y=x.*H1(21:61);
+pause
+stem(n,abs(x))
+pause
+stem(n,abs(y))
