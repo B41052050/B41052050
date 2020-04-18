@@ -1,5 +1,8 @@
+%B41052050
+%李祥聖
+
 % plot y=sin(x)&cos(x):label & axis & grid
-x = linspace(0,4*pi,100) %100��data
+x = linspace(0,4*pi,100) %100­Ódata
 y=sin(x);
 z=cos(x);
 plot(x,y,x,z);
