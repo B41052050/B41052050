@@ -1,3 +1,6 @@
+%B41052050
+%李祥聖
+
 x=linspace(0,4*pi,100);
 y=sin(x);
 z=cos(x);
